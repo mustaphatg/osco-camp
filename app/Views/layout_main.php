@@ -49,6 +49,12 @@ sup{
 a[pr]{
 	text-decoration:underline;
 }
+
+@media screen and (min-width:500px){
+	.mm{
+		width: 70%;
+	}
+}
 </style>
 </head>
 <body class="py-5 bg-dark"  >
@@ -86,7 +92,7 @@ a[pr]{
 		<div class="row">
 			<nav class="bg-dark shadow fixed-top navbar navbar-expand-lg col-12 col-lg-8 offset-lg-2" >
 				
-				<a href="http://oscocamp.22web.org" class="font-weight-bold text-warning navbar-brand">OSCO CÂMP</a>
+				<a href="http://osco-camp.epizy.com" class="font-weight-bold text-warning navbar-brand">OSCO CÂMP</a>
 				
 				<div class="dropleft d-lg-none position-relative">
 					<a href="#dr" class="hv"  data-target="#dr" data-toggle="dropdown" ><span style="font-size:20px" class="ion-md-more" ></span></a>
@@ -126,8 +132,10 @@ a[pr]{
 
 	<div class="container-fluid" >
 		<div class="row">
-			<div   style="overflow-y:scroll;"  class="py-3 col-12 col-lg-8 offset-lg-2" >
-				<?= $this->renderSection("body")?>
+			<div   style="overflow-y:scroll;"  class=" py-3 col-12 col-lg-8 offset-lg-2" >
+				<div class="mm">
+					<?= $this->renderSection("body")?>
+				</div>
 			</div>
 		</div>
 	</div>

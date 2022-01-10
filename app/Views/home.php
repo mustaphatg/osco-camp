@@ -39,6 +39,7 @@
 	.br{
 		word-break:break-word;
 	}
+	
 
 </style>
 <?= $this->endSection()?>
@@ -60,7 +61,7 @@
 			$date = date("D, M d ", $post->time_stamp);
 		?>
 		<!-- post -->
-		<div style="border:1px dashed <?=$cl?>" id="post-<?=$post->id?>" class="position-relative p-1 rounded" >
+		<div style="border:1px dashed <?=$cl?>" id="post-<?=$post->id?>" class="m-post position-relative p-1 rounded" >
 			
 			<p class="shadow p-1 d-flex justify-content-between">
 				<a style="color:#fff" href="/camp-user/<?=$post->post_by?>" go="" pr="" class="badge badge-info text-capitalize" >	<?=$post->post_by?> </a>
@@ -250,5 +251,4 @@
 	
 </script>
 <?= $this->endSection()?>
-
 

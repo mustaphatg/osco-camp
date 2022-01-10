@@ -1,0 +1,33 @@
+CRITICAL - 2022-01-10 15:55:30 --> Unable to connect to the database.
+#0 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/app/Controllers/Home.php(17): CodeIgniter\Model->paginate(20)
+#5 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-10 15:55:56 --> Unable to connect to the database.
+#0 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/app/Controllers/Home.php(17): CodeIgniter\Model->paginate(20)
+#5 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-10 15:56:12 --> Unable to connect to the database.
+#0 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Database/BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/app/Controllers/Home.php(17): CodeIgniter\Model->paginate(20)
+#5 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol9_6/epizy.com/epiz_30325708/osco-camp.epizy.com/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
