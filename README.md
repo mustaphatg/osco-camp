@@ -1,7 +1,6 @@
 # osco-camp
 A multi color meeting camp in PHP and CodeIgniter
 
-Hi, am Mustapha, a PHP developer. I started playing with git and github in the late 2021 so after getting a grasp of it, U decided to host all my personal project on github.
 
 Osco câmp
 
