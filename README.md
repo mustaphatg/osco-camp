@@ -1,4 +1,7 @@
 ## Osco Camp
+
+<img src="https://github.com/mustaphatg/osco-camp/blob/main/Osco%20Camp%20-%20Github.png" >
+
 A multi color meeting camp in PHP and CodeIgniter
 
 
